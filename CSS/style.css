@@ -1,0 +1,57 @@
+:root{
+  --main-color:#4726e1;
+}
+.text-main{
+  color: var(--main-color);
+}
+header{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
+.title h2{
+  font-size: 5rem;
+  font-weight: 900;
+  color: #f4f4f4;
+  letter-spacing: 10px;
+}
+.title h3{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: black;
+}
+#about{
+  background-image: url(../images/light_dot.jpg);
+}
+.client-feedback{
+  border: 4px solid #f1f1f1;
+}
+.client-img{
+  width: 90px;
+  border-radius: 50%;
+  border: 4px solid #f4f4f4;
+ transform: translateY(50%);
+}
+.client-feedback h6{
+  position: relative;
+}
+.client-feedback h6::after{
+  content: '';
+  background-color: var(--main-color);
+  position: absolute;
+  height: 2px;
+  width: 10%;
+  left: 45%;
+  top: 100%;
+}
+.carousel-indicators [data-bs-target]{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-indent: 0;
+  border: 3px solid #f1f1f1;
+}
